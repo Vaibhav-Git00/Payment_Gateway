@@ -27,7 +27,14 @@
 .App-link {
   color: #61dafb;
 }
-
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height to center the content */
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Arial, sans-serif; /* Change to your preferred font */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
